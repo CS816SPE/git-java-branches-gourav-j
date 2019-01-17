@@ -18,6 +18,12 @@ public class Calc{
 					   res=a+b;
 					   System.out.println("Result = " + res);
 					   break;
+				case '2':System.out.println("Enter two numbers");
+					   a = sc.nextFloat();
+					   b = sc.nextFloat();
+					   res=a-b;
+					   System.out.println("Result = " + res);
+					   break;
 				case '4':System.exit(0);
 						 break;
 				default: System.out.println("Invalid choice!!");

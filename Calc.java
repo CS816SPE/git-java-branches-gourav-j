@@ -7,6 +7,7 @@ public class Calc{
 		do{
 			System.out.println("1.Addition");
 			System.out.println("2.Subtraction");
+			System.out.println("3.Multiplication");
 			System.out.println("4.Exit");
 			System.out.println("Enter your choice:");
 			choice = sc.next().charAt(0);
@@ -17,10 +18,16 @@ public class Calc{
 					   res=a+b;
 					   System.out.println("Result = " + res);
 					   break;
-			   case '2':System.out.println("Enter two numbers");
+			    case '2':System.out.println("Enter two numbers");
 					   a = sc.nextFloat();
 					   b = sc.nextFloat();
 					   res=a-b;
+					   System.out.println("Result = " + res);
+					   break;
+				case '3':System.out.println("Enter two numbers");
+					   a = sc.nextFloat();
+					   b = sc.nextFloat();
+					   res=a*b;
 					   System.out.println("Result = " + res);
 					   break;
 				case '4':System.exit(0);
